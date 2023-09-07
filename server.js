@@ -43,8 +43,7 @@ app.get('/api', (req, res) => {
 
     // status code 
     const statusCode = res.statusCode;
-    //convert statuscode to string 
-    const statusCodeString = statusCode.toString()
+    
     //call date function
     const datevalues = dateFunction()
 
@@ -60,7 +59,7 @@ app.get('/api', (req, res) => {
         "track": track,
         "github_file_url": "https://github.com/ayhameed/Create-and-host-and-endpoint-HNGi/blob/main/server.js",
         "github_repo_url": "https://github.com/ayhameed/Create-and-host-and-endpoint-HNGi",
-        "status_code": statusCodeString
+        "status_code": statusCode
     }
 
     //response
