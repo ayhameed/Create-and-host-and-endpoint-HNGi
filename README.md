@@ -14,7 +14,10 @@
 - Track
 - The GitHub URL of the file being run
 - The GitHub URL of the full source code.
- 
+
+## Usage
+- http://<your-url>/api?slack_name=<entername>&track=<entertrack>
+- e.g http://localhost:4000/api?slack_name=Abdulhameed_Yunusa&track=Backend
 ### Expected Output 
 - Output Type: JSON
 
@@ -31,3 +34,6 @@
 ## Technology Used to Solve Task 
 - Node Js
 - ExpressJs
+
+## Notes
+- .toSting() was used to make the conversion of JS object to string
