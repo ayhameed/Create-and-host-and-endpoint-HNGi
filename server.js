@@ -21,10 +21,10 @@ dateFunction = () => {
 
     // utc time
     const now = new Date();
-    const offsetMinutes = 2;
+    // const offsetMinutes = 2;
 
     // Calculate the adjusted time by adding or subtracting minutes
-    now.setMinutes(now.getUTCMinutes() + offsetMinutes);
+    now.setMinutes(now.getUTCMinutes());
 
     // Format the date in "yyyy-MM-ddTHH:mm:ssZ" format
     const todays_time = now.toISOString().slice(0, 19) + "Z";
