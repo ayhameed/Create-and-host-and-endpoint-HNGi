@@ -1,6 +1,5 @@
 const express = require('express')
 const cors = require('cors')
-const jsonc = require('jsonc')
 const app = express()
 
 app.use(express.urlencoded({ extended: true }));
